@@ -5,7 +5,7 @@ export default {
   data() {
     return {
       chartdata: {
-        labels: ["みなさんの進捗","俺の進捗", "俺のやる気"],
+        labels: ["みなさんの進捗","俺の進捗🥺", "俺のやる気"],
         datasets: [
           {
             label: ["Data One"],
