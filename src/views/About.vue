@@ -1,6 +1,5 @@
 <template>
   <div>
-    <div></div>
     <div class="flex flex-nowrap">
       <img
         src="https://avatars.githubusercontent.com/u/26848713?s=460&u=b5c630322f32d86c35ec2a62469f36502755d83c&v=4"
