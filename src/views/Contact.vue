@@ -1,5 +1,9 @@
 <template>
-  <div></div>
+  <div>
+    <div class="flex justify-center text-5xl mt-28">
+      <div>特になし</div>
+    </div>
+  </div>
 </template>
 
 <script>
