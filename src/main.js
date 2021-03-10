@@ -16,7 +16,8 @@ Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 Vue.config.productionTip = false
 
-import VueGtag from "vue-gtag"; 
+import VueGtag from "vue-gtag";
+import i18n from './i18n'
 Vue.use(VueGtag, {
   config: { id: "G-RQCG8MJ8ZG" }
 });
@@ -24,5 +25,6 @@ Vue.use(VueGtag, {
 new Vue({
   router,
   store,
+  i18n,
   render: h => h(App)
 }).$mount('#app')
