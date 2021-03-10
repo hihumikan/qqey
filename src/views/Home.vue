@@ -2,7 +2,7 @@
   <div>
     <div class="flex justify-center text-5xl mt-28">
       <vue-typed-js
-        :strings="['qqey.net', 'hihumikan']"
+        :strings="['qqey.net',  'hihumikan']"
         :loop="true"
         :type-speed="100"
       >
