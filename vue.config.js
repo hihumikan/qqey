@@ -4,7 +4,7 @@ module.exports = {
       locale: undefined,
       fallbackLocale: undefined,
       localeDir: undefined,
-      enableInSFC: undefined
-    }
-  }
-}
+      enableInSFC: undefined,
+    },
+  },
+};
