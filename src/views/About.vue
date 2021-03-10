@@ -1,5 +1,7 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div>
+    <div class="flex justify-center text-5xl mt-28">
+      <div>特になし</div>
+    </div>
   </div>
 </template>
