@@ -15,7 +15,7 @@
 
         <v-col cols="12" sm="10" md="8" lg="6" xl="1">
           <center>
-            <v-card class="mt-24" max-width="500" outlined>
+            <v-card class="mt-10" max-width="500" outlined>
               <v-list-item three-line>
                 <v-list-item-content>
                   <p class="text-4xl text-center font-semibold">hihumikan</p>
