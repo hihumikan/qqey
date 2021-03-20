@@ -21,6 +21,8 @@ Vue.config.productionTip = false;
 
 import VueGtag from "vue-gtag";
 import i18n from "./i18n";
+import vuetify from './plugins/vuetify';
+
 Vue.use(VueGtag, {
   config: { id: "G-RQCG8MJ8ZG" },
 });
@@ -29,5 +31,6 @@ new Vue({
   router,
   store,
   i18n,
-  render: (h) => h(App),
+  vuetify,
+  render: (h) => h(App)
 }).$mount("#app");
