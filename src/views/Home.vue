@@ -1,10 +1,24 @@
 <template>
   <div>
-    <div class="flex justify-center text-5xl mt-28">
-      <transition appear>
-        <p>{{ message }}</p>
-      </transition>
-    </div>
+    <section id="about-me">
+      <div class="py-12"></div>
+
+      <v-container class="text-center">
+        <transition appear>
+          <h2 class="display-2 font-weight-bold mb-3">{{ message }}</h2>
+        </transition>
+        <br />
+        <router-link to="/about">
+          <v-btn color="grey" outlined large>
+            <span class="grey--text text--darken-1 font-weight-bold">
+              About me
+            </span>
+          </v-btn>
+        </router-link>
+      </v-container>
+
+      <div class="py-12"></div>
+    </section>
   </div>
 </template>
 
