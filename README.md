@@ -1,4 +1,4 @@
-# www.qqey.netのソースコード
+# www.qqey.net のソースコード
 
 vue-router,vuex,boostrap vue,fontawesome,i18n,tailwind,vuetify,babel,chart.js,vue-gtag
 
