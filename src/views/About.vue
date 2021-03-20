@@ -2,7 +2,7 @@
   <v-app>
     <v-container>
       <v-row class="lighten-2" style="height: 400px">
-        <v-col>
+        <v-col cols="12" sm="8" md="6" lg="4" xl="3">
           <img
             src="https://avatars.githubusercontent.com/u/26848713?s=460&u=b5c630322f32d86c35ec2a62469f36502755d83c&v=4"
             alt="プロフィール画像"
@@ -10,10 +10,10 @@
             class="rounded-full h-52 w-52 md:h-72 md:w-72 m-6"
           />
         </v-col>
-        <v-col>
+        <v-col  cols="12" sm="10" md="6" lg="4" xl="3">
           <v-card class="mt-24" max-width="500" outlined>
             <v-list-item three-line>
-              <v-list-item-content>
+              <v-list-item-content class="flex">
                 <p class="text-4xl text-center font-semibold">hihumikan</p>
 
                 <p class="mt-8 text-lg">
@@ -23,9 +23,7 @@
             </v-list-item>
           </v-card>
         </v-col>
-      </v-row>
-      <v-row>
-        <v-col>
+        <v-col  cols="12">
           <font-awesome-icon
             class="text-6xl md:text-7xl ml-20 md:ml-40 mt-10 cursor-pointer TwitterCSS"
             :icon="['fab', 'twitter']"
