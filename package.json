@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "i18n:report": "vue-cli-service i18n:report --src \"./src/**/*.?(js|vue)\" --locales \"./src/undefined/**/*.json\""
+    "i18n:report": "vue-cli-service i18n:report --src \"./src/**/*.?(js|vue)\" --locales \"./src/undefined/**/*.json\"",
+    "vite": "BROWSER=none node ./bin/vite"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
@@ -44,6 +45,7 @@
     "vue-cli-plugin-fontawesome": "^0.3.1",
     "vue-cli-plugin-i18n": "^2.0.2",
     "vue-cli-plugin-tailwind": "^2.0.6",
+    "vue-cli-plugin-vite": "~0.3.3",
     "vue-cli-plugin-vuetify": "^2.3.1",
     "vue-template-compiler": "^2.6.11",
     "vuetify-loader": "^1.7.0"

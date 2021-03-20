@@ -34,3 +34,5 @@ new Vue({
   vuetify,
   render: (h) => h(App)
 }).$mount("#app");
+
+import('http://localhost:33333/foo/bar/src/main');
